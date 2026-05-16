@@ -1,11 +1,10 @@
 import React from "react";
-import { Button } from "./components/ui/button";
+import LandingPage from "./components/pages/Landing/LandingPage";
 
 const App = () => {
   return(
     <div>
-      <p>AI Project Management</p>
-      <Button variant="outline">Get Started</Button>
+      <LandingPage />
     </div>
   )
 }
